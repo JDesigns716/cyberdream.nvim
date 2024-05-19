@@ -300,8 +300,8 @@ function M.setup()
         NotifyBackground = { bg = t.bg },
 
         -- Indent Blankline
-        IblIndent = { fg = util.blend(t.orange, t.bgAlt, 0.3) },
-        IblScope = { fg = t.orange },
+        IblIndent = { fg = t.pink },
+        IblScope = { fg = t.pink },
 
         -- TreeSitter Context
         TreeSitterContext = { bg = util.blend(t.bgAlt, t.cyan, 0.9) },
